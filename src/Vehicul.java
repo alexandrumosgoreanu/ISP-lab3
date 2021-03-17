@@ -1,7 +1,7 @@
 public class Vehicul 
 {
-	private int vitezaMaxima;
-	private String model;
+	protected int vitezaMaxima;
+	protected String model;
 
 	public Vehicul()
 	{
