@@ -36,21 +36,6 @@ public class Automobil extends Vehicul
 	 */
 	public void salvare(String numeFisier) 
 	{
-			File logFile = new File(numeFisier);
-			PrintWriter filePrint;
-			try {
-			logFile.createNewFile();
-			} catch (IOException e1) { 
-			e1.printStackTrace();
-			}
-			FileWriter testWriter;
-			try { testWriter = new FileWriter(logFile);
-			filePrint = new PrintWriter(testWriter,true);
-			filePrint.println("Viteza maxima: " + this.vitezaMaxima + ", model: " + this.model + ", Combustibil: " + combustibil + ", transmisie: " + cutieViteze);
-	
-			} catch (IOException e) { 
-			e.printStackTrace();
-			}
 			
 	}
 
